@@ -107,9 +107,9 @@ export default function Home() {
         
       </form>
 
-      <itemList
-        item={Item}
-        ItemList={ItemList}
+      <ItemList
+        Item={Item}
+        itemList={itemList}
         handleEdit={handleEdit}
         handleDelete={handleDelete}
         />
